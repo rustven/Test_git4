@@ -8,7 +8,7 @@ public class Peron {
         this.lastName = lastName;
     }
     public  String info(){
-        return String.format("%s %s%n", firstName, lastName);
+        return String.format("%s %s%n", this.firstName, this.lastName);
     }
 }
 
